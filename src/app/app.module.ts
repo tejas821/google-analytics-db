@@ -9,11 +9,17 @@ import { NgxJsonViewerModule } from 'ngx-json-viewer';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { NavigationComponent } from './component/navigation/navigation.component';
+import { HomeComponent } from './component/home/home.component';
+import { MainScreenComponent } from './component/main-screen/main-screen.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    NavigationComponent,
+    HomeComponent,
+    MainScreenComponent
   ],
   imports: [
     BrowserModule,
